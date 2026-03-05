@@ -60,4 +60,5 @@ df["var_retur"] = (retur_score > 0.2).astype(int)
 # -------------------- Eksport --------------------
 df.to_csv("mitt_datasett.csv", index=False)
 
-print("Tada! Her er filen din klar for nye eventyr 🚀")
+print("Tada! Her er filen din klar for nye eventyr")
+
